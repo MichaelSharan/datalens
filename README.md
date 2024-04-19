@@ -1,12 +1,12 @@
 # Installation of customizedDockerUI
 
-##Install customUI
+## Install customUI
 ```bash
 git clone https://github.com/MichaelSharan/datalens-ui.git
 
 docker build -t custom-ui datalens-ui
 ```
-##Install main datalens project
+## Install main datalens project
 ```bash
 git clone https://github.com/MichaelSharan/datalens.git && cd datalens
 
