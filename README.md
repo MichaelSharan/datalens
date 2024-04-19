@@ -1,3 +1,20 @@
+# Installation of customizedDockerUI
+
+##Install customUI
+```bash
+git clone https://github.com/MichaelSharan/datalens-ui.git
+
+docker build -t custom-ui datalens-ui
+```
+##Install main datalens project
+```bash
+git clone https://github.com/MichaelSharan/datalens.git && cd datalens
+
+HC=1 docker compose up
+```
+
+
+
 # DataLens
 
 [**DataLens**](https://datalens.tech) is a modern business intelligence and data visualization system. It was developed and extensively used as a primary BI tool in Yandex and is also available as a part of [Yandex Cloud](https://datalens.yandex.com) platform. See also [our roadmap](https://github.com/orgs/datalens-tech/projects/1) and [community in telegram](https://t.me/YandexDataLens).
